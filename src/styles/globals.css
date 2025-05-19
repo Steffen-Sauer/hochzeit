@@ -3,6 +3,7 @@
 :root {
   --background: #ffffff;
   --foreground: #ededed;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 @theme inline {

@@ -1,8 +1,8 @@
 import Gallery from '../components/Gallery';
 
-const images = Array.from({ length: 30 }, (_, i) => {
+const images = Array.from({ length: 0 }, (_, i) => {
   const num = i + 1;
-  return `/hochzeit/images/Foto (${num}).jpg`;
+  return `/images/Foto (${num}).jpg`;
 });
 
 export default function Home() {
