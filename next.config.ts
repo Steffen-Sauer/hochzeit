@@ -1,11 +1,15 @@
+
+const repoName = 'hochzeit'
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
+   output: 'export', 
   images: {
     unoptimized: true,
   },
-  basePath: '/hochzeit', // important for GitHub Pages
-  assetPrefix: '/hochzeit',
+  basePath: `/${repoName}`, // important for GitHub Pages
+  assetPrefix: `/${repoName}`,
 };
 
 module.exports = nextConfig;
+
