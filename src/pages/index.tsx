@@ -1,6 +1,6 @@
 import Gallery from '../components/Gallery';
 
-const images = Array.from({ length: 20 }, (_, i) => {
+const images = Array.from({ length: 30 }, (_, i) => {
   const num = i + 1;
   return `/hochzeit/images/Foto (${num}).jpg`;
 });
